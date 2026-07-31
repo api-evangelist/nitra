@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://www.nitra.com/
+url: https://app.vanta.com/nitra.com/trust/dve4hcpeu3lrp6gntgr3k1
+provider: Vanta
+certifications:
+- SOC 2 Type II
+compliance:
+- name: SOC 2 Type II
+  status: certified
+- name: HIPAA
+  status: aware
+  note: Nitra states it is HIPAA-aware; handles medical-practice data.
+security_posture:
+- Bank-grade encryption
+- Funds held at FDIC-insured banks
+evidence:
+- source: https://www.nitra.com/
+  keywords: [soc 2 type ii, hipaa, trust report, bank-grade encryption, fdic-insured]
+- source: https://app.vanta.com/nitra.com/trust/dve4hcpeu3lrp6gntgr3k1
+  kind: trust-center
+  note: Vanta-hosted trust report linked from the nitra.com homepage.

@@ -1,8 +1,32 @@
 aid: nitra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nitra.png
 name: Nitra
-description: Nitra is a company surfaced as a portfolio company of a16z, pantera-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Nitra is an integrated financial and operational platform — an "operating
+  system" — for independent medical practices, unifying business banking,
+  spend management, payments, accounting, capital, and front-desk automation
+  in one system. Its core products include the Nitra Card (a Visa business
+  card with cashback and vendor pricing), NitraMart (a medical-supplies
+  marketplace), BillPay payment processing, accounting integrations
+  (QuickBooks, Nextech), Trina (an AI assistant for phone reception and
+  invoice matching), and capital products such as lending, equipment
+  financing, and insurance factoring. Nitra primarily serves eye care,
+  aesthetics, dental specialty, and fertility practices as well as multi-site
+  groups. The company is SOC 2 Type II certified and HIPAA-aware, holds funds
+  at FDIC-insured banks, and is backed by a16z and Pantera Capital. Nitra
+  publishes no public developer API, SDK, or developer portal as of this
+  enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/nitra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Services
+- Healthcare
+- Fintech
+- Banking
+- Payments
+- Practice Management
+- Spend Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.nitra.com/
+- type: Login
+  url: https://app.nitra.com
+- type: SignUp
+  url: https://calendly.com/d/cmkp-6mq-npx/meeting-with-nitra
+- type: Support
+  url: https://nitra-knowledge-base.help.usepylon.com/
+- type: TermsOfService
+  url: https://cdn.nitra.com/files/terms-of-use.pdf
+- type: PrivacyPolicy
+  url: https://cdn.nitra.com/files/privacy-policy.pdf
+- type: TrustCenter
+  url: security/nitra-trust-center.yml
+- type: Compliance
+  url: https://app.vanta.com/nitra.com/trust/dve4hcpeu3lrp6gntgr3k1
+- type: DomainSecurity
+  url: security/nitra-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
